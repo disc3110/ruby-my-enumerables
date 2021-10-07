@@ -14,13 +14,13 @@ IMPLEMENTED METHODS
 
 🧑‍💻 **Guilherme Giachellin**
 
-- GitHub: [@smy5152](https://github.com/GuilhermeGiachellin)
-- LinkedIn: [Shabbir Yamani](https://www.linkedin.com/in/guilherme-giachellin-2599771b9/)
+- GitHub: [@GuilhermeGiachellin](https://github.com/GuilhermeGiachellin)
+- LinkedIn: [@guilherme-giachellin](https://www.linkedin.com/in/guilherme-giachellin-2599771b9/)
 
 🧑‍💻 **Arthur Guzman**
 
-- GitHub: [@DsunilK](https://github.com/ArthurGC)
-- Twiter: [@DsunilK](https://www.linkedin.com/in/alxguzmanc/)
+- GitHub: [@ArthurGC](https://github.com/ArthurGC)
+- Twiter: [@alxfuzmanc](https://www.linkedin.com/in/alxguzmanc/)
 
 ## Show your support
 
