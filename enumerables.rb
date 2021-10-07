@@ -1,7 +1,6 @@
-# rubocop:disable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity, Metrics/MethodLength, Metrics/ModuleLength
+# rubocop:disable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
 # MY ENUMERABLES
 module Enumerable
-
   # my_all? ------------
   def my_all?(parameter = nil)
     my_each do |x|
@@ -38,14 +37,13 @@ module Enumerable
     false
   end
 
-  def filter(parameter = nil)
+  def filter(_parameter = nil)
     result = []
     each do |x|
       result.push(x) if yield(x)
     end
-    return result
+    result
   end
-  
 end
 
-# rubocop:enable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity, Metrics/MethodLength, Metrics/ModuleLength
+# rubocop:enable Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity

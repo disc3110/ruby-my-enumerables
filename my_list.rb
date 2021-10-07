@@ -7,8 +7,6 @@ class MyList
 
   # my_each
   def my_each(*)
-    return enum_for(:my_each) unless block_given?
-
     arr = self if instance_of?(Array)
     arr = to_a if instance_of?(Range)
     i = 0
@@ -27,13 +25,13 @@ end
 list = MyList.new(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 # Test #all?
-puts(list.all? { |e| e < 11 }) #true
-puts(list.all? { |e| e > 7 }) #false
-puts(list.all?(Numeric)) #true
+puts(list.all? { |e| e < 11 }) # true
+puts(list.all? { |e| e > 7 }) # false
+puts(list.all?(Numeric)) # true
 # Test #any?
-puts(list.any? { |e| e == 8 }) #true
-puts(list.any? { |e| e == 40 }) #false
-puts(list.all?(String)) #false
+puts(list.any? { |e| e == 8 }) # true
+puts(list.any? { |e| e == 40 }) # false
+puts(list.all?(String)) # false
 # Test #filter
-p(list.filter { |x| x > 4}) # 5-10
-p(list.filter { |x| x < 8}) # 1-7
+p(list.filter { |x| x > 4 }) # 5-10
+p(list.filter { |x| x < 8 }) # 1-7
